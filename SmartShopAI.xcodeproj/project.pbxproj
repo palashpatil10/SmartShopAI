@@ -11,6 +11,23 @@
 		3D3AB2BC2F77D0BB000420A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2BB2F77D0BB000420A2 /* ContentView.swift */; };
 		3D3AB2BE2F77D0BE000420A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AB2BD2F77D0BE000420A2 /* Assets.xcassets */; };
 		3D3AB2C12F77D0BE000420A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AB2C02F77D0BE000420A2 /* Preview Assets.xcassets */; };
+		3D3AB2D22F77D20F000420A2 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2D12F77D20F000420A2 /* OpenAIService.swift */; };
+		3D3AB2D42F77D22C000420A2 /* EmbeddingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2D32F77D22C000420A2 /* EmbeddingService.swift */; };
+		3D3AB2D62F77D24C000420A2 /* RAGEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2D52F77D24C000420A2 /* RAGEngine.swift */; };
+		3D3AB2D82F77D258000420A2 /* OpenAIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2D72F77D258000420A2 /* OpenAIResponse.swift */; };
+		3D3AB2DA2F77D275000420A2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2D92F77D275000420A2 /* Product.swift */; };
+		3D3AB2DC2F77D2A6000420A2 /* ProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2DB2F77D2A6000420A2 /* ProductRepository.swift */; };
+		3D3AB2DE2F77D2CC000420A2 /* VectorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2DD2F77D2CC000420A2 /* VectorUtils.swift */; };
+		3D3AB2E02F77D306000420A2 /* AIChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2DF2F77D306000420A2 /* AIChatView.swift */; };
+		3D3AB2E22F77D312000420A2 /* AIChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2E12F77D312000420A2 /* AIChatViewModel.swift */; };
+		3D3AB2E42F77D31D000420A2 /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2E32F77D31D000420A2 /* ChatBubbleView.swift */; };
+		3D3AB2E62F77D32B000420A2 /* AIChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2E52F77D32B000420A2 /* AIChatMessage.swift */; };
+		3D3AB2E82F77D33E000420A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2E72F77D33E000420A2 /* HomeView.swift */; };
+		3D3AB2EA2F77D3CA000420A2 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AB2E92F77D3CA000420A2 /* products.json */; };
+		3D3AB2EC2F77D808000420A2 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2EB2F77D808000420A2 /* ProductCardView.swift */; };
+		3D3AB2EE2F77D9C6000420A2 /* EmbeddingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2ED2F77D9C6000420A2 /* EmbeddingResponse.swift */; };
+		3D3AB2F12F77E46F000420A2 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AB2F02F77E46F000420A2 /* Config.plist */; };
+		3D3AB2F32F77E4EE000420A2 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AB2F22F77E4EE000420A2 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,23 @@
 		3D3AB2BB2F77D0BB000420A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D3AB2BD2F77D0BE000420A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3AB2C02F77D0BE000420A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D3AB2D12F77D20F000420A2 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		3D3AB2D32F77D22C000420A2 /* EmbeddingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddingService.swift; sourceTree = "<group>"; };
+		3D3AB2D52F77D24C000420A2 /* RAGEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAGEngine.swift; sourceTree = "<group>"; };
+		3D3AB2D72F77D258000420A2 /* OpenAIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIResponse.swift; sourceTree = "<group>"; };
+		3D3AB2D92F77D275000420A2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3D3AB2DB2F77D2A6000420A2 /* ProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepository.swift; sourceTree = "<group>"; };
+		3D3AB2DD2F77D2CC000420A2 /* VectorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorUtils.swift; sourceTree = "<group>"; };
+		3D3AB2DF2F77D306000420A2 /* AIChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatView.swift; sourceTree = "<group>"; };
+		3D3AB2E12F77D312000420A2 /* AIChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatViewModel.swift; sourceTree = "<group>"; };
+		3D3AB2E32F77D31D000420A2 /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
+		3D3AB2E52F77D32B000420A2 /* AIChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatMessage.swift; sourceTree = "<group>"; };
+		3D3AB2E72F77D33E000420A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3D3AB2E92F77D3CA000420A2 /* products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		3D3AB2EB2F77D808000420A2 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		3D3AB2ED2F77D9C6000420A2 /* EmbeddingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddingResponse.swift; sourceTree = "<group>"; };
+		3D3AB2F02F77E46F000420A2 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		3D3AB2F22F77E4EE000420A2 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +85,10 @@
 		3D3AB2B82F77D0BB000420A2 /* SmartShopAI */ = {
 			isa = PBXGroup;
 			children = (
+				3D3AB2CA2F77D128000420A2 /* App */,
+				3D3AB2C92F77D124000420A2 /* Core */,
+				3D3AB2C82F77D11F000420A2 /* Features */,
+				3D3AB2C72F77D11B000420A2 /* Resources */,
 				3D3AB2B92F77D0BB000420A2 /* SmartShopAIApp.swift */,
 				3D3AB2BB2F77D0BB000420A2 /* ContentView.swift */,
 				3D3AB2BD2F77D0BE000420A2 /* Assets.xcassets */,
@@ -65,6 +103,107 @@
 				3D3AB2C02F77D0BE000420A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D3AB2C72F77D11B000420A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2E92F77D3CA000420A2 /* products.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D3AB2C82F77D11F000420A2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2D02F77D1AF000420A2 /* Home */,
+				3D3AB2CF2F77D1AB000420A2 /* AIChat */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3D3AB2C92F77D124000420A2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2CE2F77D168000420A2 /* AIEngine */,
+				3D3AB2CD2F77D163000420A2 /* Models */,
+				3D3AB2CC2F77D15C000420A2 /* Persistence */,
+				3D3AB2CB2F77D157000420A2 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3D3AB2CA2F77D128000420A2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2EF2F77E424000420A2 /* Config */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3D3AB2CB2F77D157000420A2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2DD2F77D2CC000420A2 /* VectorUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3D3AB2CC2F77D15C000420A2 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2DB2F77D2A6000420A2 /* ProductRepository.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		3D3AB2CD2F77D163000420A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2D92F77D275000420A2 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D3AB2CE2F77D168000420A2 /* AIEngine */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2F22F77E4EE000420A2 /* Config.swift */,
+				3D3AB2D12F77D20F000420A2 /* OpenAIService.swift */,
+				3D3AB2D32F77D22C000420A2 /* EmbeddingService.swift */,
+				3D3AB2D52F77D24C000420A2 /* RAGEngine.swift */,
+				3D3AB2D72F77D258000420A2 /* OpenAIResponse.swift */,
+				3D3AB2ED2F77D9C6000420A2 /* EmbeddingResponse.swift */,
+			);
+			path = AIEngine;
+			sourceTree = "<group>";
+		};
+		3D3AB2CF2F77D1AB000420A2 /* AIChat */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2DF2F77D306000420A2 /* AIChatView.swift */,
+				3D3AB2E12F77D312000420A2 /* AIChatViewModel.swift */,
+				3D3AB2E32F77D31D000420A2 /* ChatBubbleView.swift */,
+				3D3AB2E52F77D32B000420A2 /* AIChatMessage.swift */,
+				3D3AB2EB2F77D808000420A2 /* ProductCardView.swift */,
+			);
+			path = AIChat;
+			sourceTree = "<group>";
+		};
+		3D3AB2D02F77D1AF000420A2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2E72F77D33E000420A2 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D3AB2EF2F77E424000420A2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AB2F02F77E46F000420A2 /* Config.plist */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3AB2F12F77E46F000420A2 /* Config.plist in Resources */,
+				3D3AB2EA2F77D3CA000420A2 /* products.json in Resources */,
 				3D3AB2C12F77D0BE000420A2 /* Preview Assets.xcassets in Resources */,
 				3D3AB2BE2F77D0BE000420A2 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +278,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3AB2EE2F77D9C6000420A2 /* EmbeddingResponse.swift in Sources */,
+				3D3AB2D82F77D258000420A2 /* OpenAIResponse.swift in Sources */,
+				3D3AB2E82F77D33E000420A2 /* HomeView.swift in Sources */,
 				3D3AB2BC2F77D0BB000420A2 /* ContentView.swift in Sources */,
+				3D3AB2F32F77E4EE000420A2 /* Config.swift in Sources */,
+				3D3AB2D62F77D24C000420A2 /* RAGEngine.swift in Sources */,
+				3D3AB2DC2F77D2A6000420A2 /* ProductRepository.swift in Sources */,
+				3D3AB2D42F77D22C000420A2 /* EmbeddingService.swift in Sources */,
 				3D3AB2BA2F77D0BB000420A2 /* SmartShopAIApp.swift in Sources */,
+				3D3AB2E42F77D31D000420A2 /* ChatBubbleView.swift in Sources */,
+				3D3AB2D22F77D20F000420A2 /* OpenAIService.swift in Sources */,
+				3D3AB2EC2F77D808000420A2 /* ProductCardView.swift in Sources */,
+				3D3AB2E62F77D32B000420A2 /* AIChatMessage.swift in Sources */,
+				3D3AB2DE2F77D2CC000420A2 /* VectorUtils.swift in Sources */,
+				3D3AB2E02F77D306000420A2 /* AIChatView.swift in Sources */,
+				3D3AB2DA2F77D275000420A2 /* Product.swift in Sources */,
+				3D3AB2E22F77D312000420A2 /* AIChatViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

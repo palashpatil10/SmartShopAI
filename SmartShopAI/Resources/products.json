@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1E1D5F3A-1234-4F3A-9A1A-123456789001",
+    "name": "Modern Sofa",
+    "category": "Furniture",
+    "price": 18000,
+    "description": "Comfortable 3-seater sofa"
+  },
+  {
+    "id": "1E1D5F3A-1234-4F3A-9A1A-123456789002",
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "price": 1999,
+    "description": "Noise cancelling headphones"
+  }
+]
+

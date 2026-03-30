@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
-
+ 
 @main
 struct SmartShopAIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .task {
+                    await ProductRepository.shared.generateEmbeddings()
+                }
         }
     }
 }
